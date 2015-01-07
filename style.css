@@ -1,0 +1,104 @@
+* { /*Intial*/
+	margin: 0;
+	padding: 0;
+	font-family: Arial, serif;
+}
+
+body { /*Fond général*/
+	background-color: white;
+	color: black;
+	height: 100%;
+}
+
+h1 { /*Alignement titre*/
+	padding: 50px auto;
+	width: auto;
+	text-align: center;
+}
+
+h2 { /*Alignement titre <h2>*/
+	padding-left: 50px;
+}
+
+a{ /*Pas de style sur les liens*/
+	text-decoration: none;
+	color: inherit;
+}
+
+div{ /*Espacement entre div*/
+	padding: 20px 0;
+}
+
+header, footer {
+	position: fixed;
+}
+
+header {
+	background: grey;
+	margin: 0px auto;
+	width: 100%;
+	color: black;
+}
+
+footer {
+	position: fixed;
+	top: calc(100% - 40px);
+	height: 40px;
+	background: grey;
+	width: 100%;
+	color: black;
+}
+
+footer table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+footer td {
+	width: 16%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+figcaption { /*Description en italique*/
+	font-style: italic;
+	padding-left: 20px;
+}
+
+div li { /*Alignement <li>*/
+	padding-left: 10px;
+	list-style: none;
+}
+
+.corps {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	min-height: 100%;
+	height: 100%;
+}
+
+#informatique li{ /*Espacement entre */
+	margin-bottom: 10px;
+}
+
+figure{ /*Espacements entre <figure>*/
+	padding-bottom: 10px;
+}
+
+#index {
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 50px;
+}
+
+#link table {
+	width: 100%;
+}
+
+#link td {
+	width: 33%;
+	height: 20vh;
+	text-align: center;
+}
